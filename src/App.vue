@@ -1,23 +1,29 @@
 <template>
     <div id="app">
-        <LoginPage/>
+<!--        <LoginPage/>-->
         <div style="background-color: black">
             <br>
         </div>
-        <RegisterPage></RegisterPage>
+<!--        <RegisterPage></RegisterPage>-->
+        <div style="background-color: black">
+            <br>
+        </div>
+<!--        <ForgotPasswordPage/>-->
     </div>
 
 </template>
 
 <script>
-    import LoginPage from "@/components/LoginPage";
-    import RegisterPage from "@/components/RegisterPage";
+    // import LoginPage from "@/components/LoginPage";
+    // import RegisterPage from "@/components/RegisterPage";
+    // import ForgotPasswordPage from "@/components/ForgotPasswordPage";
 
     export default {
         name: 'App',
         components: {
-            RegisterPage,
-            LoginPage,
+            // ForgotPasswordPage,
+            // RegisterPage,
+            // LoginPage,
         }
     }
 </script>
@@ -27,8 +33,8 @@
         font-family: Avenir, Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        text-align: center;
+        /*text-align: center;*/
         color: #2c3e50;
-        margin-top: 60px;
+        /*margin-top: 60px;*/
     }
 </style>
